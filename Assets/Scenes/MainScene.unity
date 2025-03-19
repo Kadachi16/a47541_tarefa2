@@ -248,7 +248,15 @@ MonoBehaviour:
     m_Id: b0ea4286-87e5-4752-a7f8-1344e786c61e
     m_Processors: 
     m_Interactions: 
-    m_SingletonActionBindings: []
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 5503260b-d275-4ecf-a521-c100bde37fee
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left
+      m_Flags: 0
     m_Flags: 0
 --- !u!1 &1000893685
 GameObject:
