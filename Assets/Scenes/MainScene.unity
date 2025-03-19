@@ -220,15 +220,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f24cf2cac9911a4bb46c250ddb445b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LeftAction:
-    m_Name: Left
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 3e6ec498-2914-4614-a133-9060d599615c
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings: []
-    m_Flags: 0
   MoveAction:
     m_Name: Move
     m_Type: 0
@@ -250,23 +241,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f24cf2cac9911a4bb46c250ddb445b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LeftAction:
-    m_Name: Left
-    m_Type: 1
-    m_ExpectedControlType: Button
-    m_Id: b0ea4286-87e5-4752-a7f8-1344e786c61e
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 5503260b-d275-4ecf-a521-c100bde37fee
-      m_Path: <Keyboard>/leftArrow
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Left
-      m_Flags: 0
-    m_Flags: 0
   MoveAction:
     m_Name: Move
     m_Type: 0
