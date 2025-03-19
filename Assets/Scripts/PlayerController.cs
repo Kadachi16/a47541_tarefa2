@@ -34,11 +34,15 @@ public class PlayerController : MonoBehaviour
         {
             vertical = -1.0f;
         }
+        else if (Keyboard.current.downArrowKey.isPressed)
+        {
+            vertical = -1.0f;
+        }
         Debug.Log(vertical);
 
         Vector2 position = transform.position;
         position.x = position.x + 0.1f * horizontal;
-        position.y = position.y + 0,1f * vertical;
+        position.y = position.y + 0.1f * vertical;
         transform.position = position;
 
     }
