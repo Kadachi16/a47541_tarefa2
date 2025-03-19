@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
         float vertical = 0.0f;
         if (Keyboard.current.upArrowKey.isPressed)
         {
-            vertical = -1.0f;
+            vertical = 1.0f;
         }
         else if (Keyboard.current.downArrowKey.isPressed)
         {
