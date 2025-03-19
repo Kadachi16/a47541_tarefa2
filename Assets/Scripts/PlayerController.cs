@@ -8,8 +8,11 @@ public class PlayerController : MonoBehaviour
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
+
     {
         MoveAction.Enable();
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = 10;
     }
 
     // Update is called once per frame
