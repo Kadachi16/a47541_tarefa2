@@ -4,6 +4,7 @@ using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour
 {
+    public InputAction LeftAction;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
